@@ -17,6 +17,11 @@ body {
     height: $heigh;
     border: 1px solid rgb(150, 150, 150);
 
+    @media screen and (max-width: 280px) {
+      width: $widthSmall;
+      height: $heigh;
+    }
+
     .display {
       height: 110px;
       text-align: right;
@@ -42,6 +47,10 @@ body {
       flex-direction: row;
       > * {
         width: $buttonWidth;
+        @media screen and (max-width: 280px) {
+          width: $firstThreeButon;
+        }
+
         height: 50px;
         background-color: #fff;
         border: 1px solid rgb(200, 200, 200);
@@ -56,6 +65,9 @@ body {
       > :nth-child(-n + 5) {
         color: rgb(200, 200, 200);
         width: $firstThreeButon;
+        @media screen and (max-width: 280px) {
+          width: $firstThreeButonSmall;
+        }
       }
 
       > :hover:nth-child(-n + 5) {
