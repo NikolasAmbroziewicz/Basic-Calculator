@@ -51,7 +51,7 @@ class Calculator {
         score = curent + prev;
         break;
       case "-":
-        score = prev - curent;
+        score = curent - prev;
         break;
       case "X":
         score = curent * prev;
@@ -89,7 +89,7 @@ class Calculator {
   }
 
   plusMinus() {
-    if (this.firstNumber.includes("-")) {
+    if (this.firstNumber.toString().includes("-")) {
       this.firstNumber = this.firstNumber.substring(1);
     } else {
       this.firstNumber = `-${this.firstNumber}`;
