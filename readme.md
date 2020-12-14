@@ -1,4 +1,4 @@
 Basic Calcualor using:
 -HTML
--SCCS
+-SASS
 -Vanilla JavaScript
