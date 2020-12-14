@@ -52,6 +52,14 @@ body {
       > :hover {
         background-color: #aaa;
       }
+
+      > :nth-child(-n + 4) {
+        color: rgb(200, 200, 200);
+      }
+
+      > :hover:nth-child(-n + 4) {
+        color: black;
+      }
     }
   }
 }
