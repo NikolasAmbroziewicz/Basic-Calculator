@@ -6,3 +6,11 @@ Basic calculuator you can do basic math and some extends.
     -SASS
       -Vanilla JavaScript
 
+---
+
+## Contributors 
+- Nikolas Ambroziewicz <ambroziewicznikolas@wp.pl>
+
+---
+
+
