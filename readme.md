@@ -1,14 +1,14 @@
 # Basic Calculator:
 Basic calculuator you can do basic math and some extends.
 
-1).Basic Calcualor using:
-  -HTML
-    -SASS
-      -Vanilla JavaScript
+## Basic Calcualor using:
+- HTML
+- SASS
+- Vanilla JavaScript (Class)
 
 ---
 
-## Contributors 
+### Contributors 
 - Nikolas Ambroziewicz <ambroziewicznikolas@wp.pl>
 
 ---
